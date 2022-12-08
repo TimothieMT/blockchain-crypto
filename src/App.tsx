@@ -9,7 +9,7 @@ interface ICoin {
     price_change_percentage_24h: number
 }
 
-const url = 'http://localhost:3005/crypto'
+const url = 'https://precious-erin-bikini.cyclic.app/crypto'
 
 function App() {
 
