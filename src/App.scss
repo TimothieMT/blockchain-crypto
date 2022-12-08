@@ -1,0 +1,74 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+
+  background-color: #213547;
+  text-align: center;
+
+  .infoCrypto {
+    background-color: #1a1a1a;
+    height: 150px;
+    width: 150px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 5px ;
+    border: 1px solid #242424;
+  }
+
+  .valuePrice{
+    color: goldenrod;
+  }
+
+  .valueRed{
+    color: red;
+  }
+
+  .valueGreen{
+    color: green;
+  }
+
+  img {
+    height: 40px;
+    width: auto;
+    border: 1px solid #242424;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  p {
+    color: goldenrod;
+  }
+
+  input {
+    height: 40px;
+    width: 400px;
+  }
+
+  .searchWrapper {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search {
+    border: black ridge 1px;
+    border-radius: 10px;
+    margin: 30px;
+    width: 20rem;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+}
